@@ -1,0 +1,43 @@
+
+
+ LOG file opened at 05/18/23 15:55:03
+
+Total Number of Files=1
+
+Data File: DailyAttendance.csv
+
+Log File: EXTERNAL_DAILY_ATTENDANCE_8220_7648.log
+
+
+
+ LOG file opened at 05/18/23 15:55:03
+
+Bad File: EXTERNAL_DAILY_ATTENDANCE_8220_7648.bad
+
+Field Definitions for table EXTERNAL_DAILY_ATTENDANCE
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DAILY_ATTENDANCE_ID             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMPLOYEE_ID                     CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ATTENDANCE_DATE                 CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ATTENDANCE_DAY                  CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_TIME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_TIME                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column DAILY_ATTENDANCE_ID in row 1 for datafile c:\oracle_data\DailyAttendance.csv
+ORA-01722: invalid number

@@ -1,0 +1,86 @@
+
+
+ LOG file opened at 05/18/23 18:36:23
+
+Total Number of Files=1
+
+Data File: Employees.csv
+
+Log File: EXTERNAL_EMPLOYEES_8220_22980.log
+
+
+
+ LOG file opened at 05/18/23 18:36:23
+
+Bad File: EXTERNAL_EMPLOYEES_8220_22980.bad
+
+Field Definitions for table EXTERNAL_EMPLOYEES
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    EMPLOYEE_ID                     CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMPLOYEE_NAME                   CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMPLOYEE_EMAIL                  CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMPLOYEE_SALARY                 CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ATTENDANCE_TYPE_ID              CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    POSITION_ID                     CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column EMPLOYEE_ID in row 1 for datafile c:\oracle_data\Employees.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 05/18/23 18:36:12
+
+Total Number of Files=1
+
+Data File: Employees.csv
+
+Log File: EXTERNAL_EMPLOYEES_8220_22980.log
+
+
+
+ LOG file opened at 05/18/23 18:36:12
+
+Bad File: EXTERNAL_EMPLOYEES_8220_22980.bad
+
+Field Definitions for table EXTERNAL_EMPLOYEES
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    EMPLOYEE_ID                     CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMPLOYEE_NAME                   CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMPLOYEE_EMAIL                  CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMPLOYEE_SALARY                 CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ATTENDANCE_TYPE_ID              CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    POSITION_ID                     CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column EMPLOYEE_ID in row 1 for datafile c:\oracle_data\Employees.csv
+ORA-01722: invalid number
